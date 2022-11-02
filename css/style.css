@@ -93,7 +93,7 @@
 /* Prima jumbo */
 
 .section-jumbo{
-    height: 34em;
+   
     width: 100%;
     background-color: rgb(163, 200, 231);
     margin-bottom: 10em;
@@ -143,7 +143,7 @@
 
 .promotion-col{
     border: 1px solid black;
-    height: 3em;
+    padding: 0.7em;
     width: 30%;
     justify-content: center;
     align-items: center;
@@ -152,7 +152,6 @@
 .business-offer-row{
     width: 55em;
     margin: 0px auto;
-    height: 9em;
 }
 
 .margin-1em{
@@ -162,7 +161,6 @@
 .offer-col{
     width: 30%;
     border: 1px solid black;
-    height: 50em;
     justify-content:space-around;
 }
 
@@ -188,4 +186,27 @@
 }
 .margin-top-2em{
     margin-top: 2em;
+}
+
+/* Sezione team */
+
+.private-col{
+    border: 1px solid black;
+    width: 55em;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+.flex-center{
+    justify-content: center;
+    align-items: center;
+}
+.justify-content{
+    justify-content: space-around;
+}
+
+.enterprise-width{
+    width: 38em;
+}
+.enterprise-width *{
+    padding-top: 1em;
 }
