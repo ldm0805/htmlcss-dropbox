@@ -41,12 +41,20 @@
     margin-top: 50px;
 }
 
+.margin-right{
+    margin-right: 3em;
+}
+
 .text-center{
     text-align: center;
 }
 
 .font-size{
     font-size: 0.7em;
+}
+
+.padding-right-1em{
+    padding-right: 1em;
 }
 /* Icone */
 
@@ -79,12 +87,13 @@
 
 /* Main */
 
-/* Prima section */
+/* Prima jumbo */
 
-.first-section{
-    height: 35em;
+.section-jumbo{
+    height: 34em;
     width: 100%;
     background-color: rgb(163, 200, 231);
+    margin-bottom: 10em;
 }
 
 .title-col{
@@ -99,11 +108,11 @@
     font-size: 3em;
 }
 
-.first-section-row{
+.first-jumbo-row{
     justify-content: center;
 }
 
-.p-col-30{
+.p-col-12em{
     width: 12em;
     border: 1px solid black;
 }
@@ -111,9 +120,55 @@
 .img-col{
     width: 48em;
     border: 1px solid black;
-
+    position: relative;
 }
 
 .jumbo{
-    width: 45em;
+    position: absolute;
+    left: 0;
+    top:0;
+    width: 46em;
+}
+
+/* Sezione business */
+.section{
+    height: 500px;
+    background-color: aquamarine;
+}
+
+.business-col{
+    border: 1px solid black;
+    width: 55em;
+    margin: 50px auto 0px auto;
+}
+
+
+.promotion-row{
+    justify-content: space-between;
+}
+
+.promotion-col{
+    border:1px solid black;
+    height: 3em;
+    width: 30%;
+    justify-content: center;
+    align-items: center;
+}
+
+.business-offer-row{
+    border: 1px solid black;
+    width: 55em;
+    margin: 0px auto;
+    height: 9em;
+}
+
+.margin-1em{
+    margin: 1em;
+}
+
+.offer-col{
+    width: 30%;
+    border: 1px solid black;
+    height: 9em;
+    justify-content:space-around;
 }
