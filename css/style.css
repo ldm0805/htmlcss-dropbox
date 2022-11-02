@@ -24,7 +24,7 @@
 }
 
 .button-blue{
-    background-color: rgb(69, 164, 242);
+    background-color: rgb(37, 118, 184);
     color: white;
     padding: 5px 10px 5px 10px;
 }
@@ -51,7 +51,7 @@
 .margin-right-3em{
     margin-right: 3em;
 }
-.margin-right-05em{
+.margin-right-05em, .fa-solid{
     margin-right: 0.5em;
 }
 
@@ -66,6 +66,11 @@
 .padding-right-1em{
     padding-right: 1em;
 }
+
+.padding-right{
+    padding-right: 2em;
+}
+
 /* Icone */
 
 .fa-arrow-down{
@@ -77,7 +82,6 @@
 .row-header{
     height: 4em;
     width: 100%;
-
 }
 
 .row-header{
@@ -183,13 +187,16 @@
     color: rgb(64, 64, 239);
 }
 
-.padding-top-2em{
+.blue-check{
+    padding-right:0.5em;
+}
+.padding-top-1em{
     padding-top: 1em;
 }
 
-.padding-top-2em div,h4{
+.padding-top-1em div,h4{
     padding-top: 2em;
-    font-size: 0.8em;
+    font-size: 0.9em;
 }
 .margin-top-2em{
     margin-top: 2em;
@@ -238,3 +245,35 @@
 .partner-img{
    width: 100%;
 }
+
+/*  */
+
+.operation-container{
+    justify-content: center;
+}
+
+.operation-row{
+    width: 55em;
+}
+
+.col-33{
+    width: calc(100% / 3);
+}
+
+.partner-img{
+    width: 100%;
+ }
+
+ .description-img{
+    text-align:left;
+    width:90%;
+ 
+ }
+ 
+ .description-img p{
+    padding-top: 1em;
+ }
+ 
+ .font-size-big{
+    font-size: larger;
+ }
