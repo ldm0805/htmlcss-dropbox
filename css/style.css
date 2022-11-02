@@ -2,10 +2,11 @@
     padding: 0;
     margin: 0;
     box-sizing: border-box;
+    font-family: 'Noto Nastaliq Urdu', serif;
+    font-family: 'Open Sans', sans-serif;
 }
 
 .flex{
-    
     display: flex;
 }
 
@@ -23,9 +24,34 @@
 }
 
 .button-blue{
-    background-color: rgb(180, 208, 231);
+    background-color: rgb(69, 164, 242);
     color: white;
     padding: 5px 10px 5px 10px;
+}
+
+.margin-top-bottom-20{
+    margin: 20px 0px 20px 0px;
+}
+
+.margin-top-30{
+    margin-top: 30px;
+}
+
+.margin-top-50{
+    margin-top: 50px;
+}
+
+.text-center{
+    text-align: center;
+}
+
+.font-size{
+    font-size: 0.7em;
+}
+/* Icone */
+
+.fa-arrow-down{
+    font-size: 2.5em;
 }
 
 /* Header */
@@ -43,12 +69,51 @@
 }
 
 .col-30{
-
     width: 30%;
-
 }
 
 .flex-header{
     align-items: center;
     justify-content: space-around;
+}
+
+/* Main */
+
+/* Prima section */
+
+.first-section{
+    height: 35em;
+    width: 100%;
+    background-color: rgb(163, 200, 231);
+}
+
+.title-col{
+    border: 1px solid black;
+    width: 60em;
+    margin: 0 auto;
+}
+
+.big-title{
+    margin-top: 0.5em;
+    font-weight: bolder;
+    font-size: 3em;
+}
+
+.first-section-row{
+    justify-content: center;
+}
+
+.p-col-30{
+    width: 12em;
+    border: 1px solid black;
+}
+
+.img-col{
+    width: 48em;
+    border: 1px solid black;
+
+}
+
+.jumbo{
+    width: 45em;
 }
