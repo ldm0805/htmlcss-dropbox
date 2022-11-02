@@ -41,8 +41,11 @@
     margin-top: 50px;
 }
 
-.margin-right{
+.margin-right-3em{
     margin-right: 3em;
+}
+.margin-right-05em{
+    margin-right: 0.5em;
 }
 
 .text-center{
@@ -97,7 +100,6 @@
 }
 
 .title-col{
-    border: 1px solid black;
     width: 60em;
     margin: 0 auto;
 }
@@ -114,12 +116,10 @@
 
 .p-col-12em{
     width: 12em;
-    border: 1px solid black;
 }
 
 .img-col{
     width: 48em;
-    border: 1px solid black;
     position: relative;
 }
 
@@ -130,25 +130,19 @@
     width: 46em;
 }
 
-/* Sezione business */
-.section{
-    height: 500px;
-    background-color: aquamarine;
-}
+/* Sezione business e offerte*/
 
 .business-col{
-    border: 1px solid black;
     width: 55em;
     margin: 50px auto 0px auto;
 }
-
 
 .promotion-row{
     justify-content: space-between;
 }
 
 .promotion-col{
-    border:1px solid black;
+    border: 1px solid black;
     height: 3em;
     width: 30%;
     justify-content: center;
@@ -156,7 +150,6 @@
 }
 
 .business-offer-row{
-    border: 1px solid black;
     width: 55em;
     margin: 0px auto;
     height: 9em;
@@ -169,6 +162,30 @@
 .offer-col{
     width: 30%;
     border: 1px solid black;
-    height: 9em;
+    height: 50em;
     justify-content:space-around;
+}
+
+.margin-right-10em{
+    margin-right: 10em;
+}
+
+.title-promotion{
+    font-size: 2em;
+    font-weight: bolder;
+}
+.blue-check{
+    color: rgb(64, 64, 239);
+}
+
+.padding-top-2em{
+    padding-top: 1em;
+}
+
+.padding-top-2em div,h4{
+    padding-top: 2em;
+    font-size: 0.8em;
+}
+.margin-top-2em{
+    margin-top: 2em;
 }
