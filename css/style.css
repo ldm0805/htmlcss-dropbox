@@ -279,7 +279,6 @@
  .description-img{
     text-align:left;
     width:90%;
- 
  }
  
  .description-img p{
@@ -287,7 +286,7 @@
  }
  
  .font-size-big{
-    font-size: larger;
+    font-size: 1.5em;
  }
 
  
@@ -369,6 +368,35 @@
     background-color: rgb(223, 223, 21);
 }
 
+/* dropboxbusiness section */
+
+.dropboxbusiness-container{
+    padding: 5em 0em;
+    width: 100%;
+    background-color: rgb(163, 200, 231);
+    justify-content: center;
+
+}
+
+.dropboxbusiness-row{
+    width: 70%;
+}
+
+.dropboxbusiness-col{
+    justify-content: space-around;
+    align-items: center;
+    
+}
+
+.second-button-white{
+    background-color: white;
+    padding: 1em 4em 1em 4em;
+    color: black;
+}
+
+.dropboxbusiness-col-title{
+    max-width: 18em;
+}
 
  /* Footer */
 
