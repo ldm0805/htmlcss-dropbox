@@ -78,9 +78,16 @@
 .padding-left{
     padding-left: 0.8em;
 }
+.padding-left-10{
+    padding-left: 10em;
+}
 
 .padding-top-4em{
     padding-top: 4em;
+}
+
+.padding-vertical-15em{
+    padding: 1.5em 0em;
 }
 /* Icone */
 
@@ -398,6 +405,12 @@
     max-width: 18em;
 }
 
+/* Domande frequenti */
+
+.question-row{
+    margin: 8em;
+}
+
  /* Footer */
 
  .footer-container{
@@ -438,8 +451,13 @@ li{
     margin-bottom: 2em;
 }
 
-.color-gray{
+.border-top-color-gray{
     border-top: 2px solid;
+    color:  rgba(191, 191, 191, 0.807);
+}
+
+.border-bottom-color-gray{
+    border-bottom: 2px solid;
     color:  rgba(191, 191, 191, 0.807);
 }
 
