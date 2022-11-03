@@ -29,6 +29,12 @@
     color: white;
     padding: 5px;
 }
+
+.link-reset-black{
+    text-decoration: none;
+    color: black;
+}
+
 /* Bottoni */
 .button-blue{
     background-color: rgb(37, 118, 184);
