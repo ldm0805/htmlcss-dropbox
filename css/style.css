@@ -168,7 +168,7 @@
 }
 
 .big-title{
-    margin-top: 0.5em;
+    margin-top: 0.2em;
     font-weight: bolder;
     font-size: 3em;
 }
@@ -178,11 +178,11 @@
 }
 
 .p-col-12em{
-    width: 12em;
+    width: 16em;
 }
 
 .img-col{
-    width: 48em;
+    width: 44em;
     position: relative;
 }
 
@@ -435,6 +435,15 @@
     margin: 8em;
 }
 
+
+/* Bonus */
+
+
+
+
+
+
+/* Fine bonus */
  /* Footer */
 
  .footer-container{
