@@ -6,14 +6,17 @@
     font-family: 'Open Sans', sans-serif;
 }
 
+/* Colore testo */
 .color-white{
     color: white;
 }
 
+/* flex */
+
 .flex{
     display: flex;
 }
-
+/* toglie la personalizzazione di default */
 .button-reset{
     text-decoration: none;
     border: none;
@@ -23,10 +26,10 @@
 
 .link-reset{
     text-decoration: none;
-    color: black;
+    color: white;
     padding: 5px;
 }
-
+/* Bottoni */
 .button-blue{
     background-color: rgb(37, 118, 184);
     color: white;
@@ -38,6 +41,16 @@
     padding: 15px 10px 15px 10px;
     color: black;
     border: 1px solid rgba(191, 191, 191, 0.807);
+}
+
+/* Margin e Padding */
+
+.margin-top-2em{
+    margin-top: 2em;
+}
+
+.margin-right-10em{
+    margin-right: 10em;
 }
 
 .margin-top-bottom-20{
@@ -52,6 +65,10 @@
     margin-top: 50px;
 }
 
+.margin-1em{
+    margin: 1em;
+}
+
 .margin-right-3em{
     margin-right: 3em;
 }
@@ -59,13 +76,7 @@
     margin-right: 0.5em;
 }
 
-.text-center{
-    text-align: center;
-}
 
-.font-size{
-    font-size: 0.7em;
-}
 
 .padding-right-1em{
     padding-right: 1em;
@@ -78,12 +89,21 @@
 .padding-left{
     padding-left: 0.8em;
 }
+
 .padding-left-10{
     padding-left: 10em;
 }
 
 .padding-top-4em{
     padding-top: 4em;
+}
+
+.padding-top-2em{
+    padding-top: 2em;
+}
+
+.padding-top-1em{
+    padding-top: 1em;
 }
 
 .padding-vertical-15em{
@@ -93,6 +113,20 @@
 
 .fa-arrow-down{
     font-size: 2.5em;
+}
+
+/* Font */
+
+.text-center{
+    text-align: center;
+}
+
+.font-size-07{
+    font-size: 0.7em;
+}
+
+.font-size-09{
+    font-size: 0.9em;
 }
 
 /* Header */
@@ -119,7 +153,7 @@
 
 /* Main */
 
-/* Prima jumbo */
+/* Jumbo */
 
 .section-jumbo{
    
@@ -183,18 +217,11 @@
     margin: 0px auto;
 }
 
-.margin-1em{
-    margin: 1em;
-}
 
 .offer-col{
     width: 30%;
     border: 1px solid rgba(191, 191, 191, 0.807);
     justify-content:space-around;
-}
-
-.margin-right-10em{
-    margin-right: 10em;
 }
 
 .title-promotion{
@@ -208,16 +235,11 @@
 .blue-check{
     padding-right:0.5em;
 }
-.padding-top-1em{
-    padding-top: 1em;
-}
+
 
 .padding-top-1em div,h4{
     padding-top: 2em;
     font-size: 0.9em;
-}
-.margin-top-2em{
-    margin-top: 2em;
 }
 
 /* Sezione team */
@@ -244,7 +266,7 @@
     padding-top: 1em;
 }
 
-/*  */
+/* Sezione partner */
 
 
 .partner-row{
@@ -264,7 +286,7 @@
    width: 100%;
 }
 
-/*  */
+/* Sezione operazioni dropbox business */
 
 .operation-container{
     justify-content: center;
@@ -302,15 +324,16 @@
  .logos-row{
     width: 100%;
     height: 25em;
+    padding-bottom: 10em;
  }
 
  .logos-col{
-    height: 12.5em;
+    height: 14em;
     position: relative;
  }
 
  .logo-central-col{
-    height: 25em;
+    height: 28em;
  }
 
  .logo-central{
@@ -375,9 +398,10 @@
     background-color: rgb(223, 223, 21);
 }
 
-/* dropboxbusiness section */
+/* dropbox business section */
 
 .dropboxbusiness-container{
+    margin-top: 3em;
     padding: 5em 0em;
     width: 100%;
     background-color: rgb(163, 200, 231);
@@ -405,7 +429,7 @@
     max-width: 18em;
 }
 
-/* Domande frequenti */
+/* Sezione domande frequenti */
 
 .question-row{
     margin: 8em;
@@ -440,7 +464,7 @@ li{
 
 .unordered-list-footer{
     list-style-type: none;
-    padding-left: 5px;
+    padding-left: 7px;
     color: white;
     height: 100%;
 }
@@ -465,7 +489,4 @@ li{
     margin-right: 22em;
     border-bottom: 2px solid;
     color:  rgba(191, 191, 191, 0.807);
-}
-.padding-top-2em{
-    padding-top: 2em;
 }
