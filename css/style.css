@@ -16,18 +16,16 @@
 .flex{
     display: flex;
 }
-/* toglie la personalizzazione di default */
-.button-reset{
-    text-decoration: none;
-    border: none;
-    background-color: transparent;
-    margin: 5px 10px;
+
+.flex-list{
+    display: flex;
+    flex-direction: row;
 }
+/* toglie la personalizzazione di default */
 
 .link-reset{
     text-decoration: none;
     color: white;
-    padding: 5px;
 }
 
 .link-reset-black{
@@ -35,7 +33,18 @@
     color: black;
 }
 
+.list-decoration-none{
+    list-style-type: none;
+}
 /* Bottoni */
+
+.button-reset{
+    text-decoration: none;
+    border: none;
+    background-color: transparent;
+    margin: 5px 0px;
+}
+
 .button-blue{
     background-color: rgb(37, 118, 184);
     color: white;
@@ -146,10 +155,6 @@
     display: flex;
     justify-content: space-between;
     align-items: center;
-}
-
-.col-30{
-    width: 30%;
 }
 
 .flex-header{
@@ -473,7 +478,7 @@
     width: calc(55em / 5);
 }
 
-li{
+footer li{
     padding-bottom: 1em;
 }
 
