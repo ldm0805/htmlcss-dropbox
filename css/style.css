@@ -4,6 +4,7 @@
     box-sizing: border-box;
     font-family: 'Noto Nastaliq Urdu', serif;
     font-family: 'Open Sans', sans-serif;
+    
 }
 
 /* Colore testo */
@@ -85,6 +86,10 @@
     margin: 1em;
 }
 
+.margin-15em{
+    margin: 1.5em;
+}
+
 .margin-right-3em{
     margin-right: 3em;
 }
@@ -108,8 +113,8 @@
     padding-left: 0.8em;
 }
 
-.padding-left-10{
-    padding-left: 10em;
+.padding-left-22{
+    padding-left: 22em;
 }
 
 .padding-top-4em{
@@ -243,17 +248,19 @@
     font-size: 2em;
     font-weight: bolder;
 }
+
 .blue-check{
+    padding-top: 0.3em;
     color: rgb(64, 64, 239);
+
 }
 
-.blue-check{
-    padding-right:0.5em;
+.icon:before{
+    content: "<i class="fa-solid fa-check"></i>" ;
 }
-
 
 .padding-top-1em div,h4{
-    padding-top: 2em;
+    padding-top: 1.2em;
     font-size: 0.9em;
 }
 
@@ -336,10 +343,9 @@
  
  /* Sezione Loghi */
 
+
  .logos-row{
     width: 100%;
-    height: 25em;
-    padding-bottom: 10em;
  }
 
  .logos-col{
@@ -416,7 +422,6 @@
 /* dropbox business section */
 
 .dropboxbusiness-container{
-    margin-top: 3em;
     padding: 5em 0em;
     width: 100%;
     background-color: rgb(163, 200, 231);
@@ -500,17 +505,38 @@ footer li{
 }
 
 .border-top-color-gray{
+    margin: 0em 8em;
     border-top: 2px solid;
-    color:  rgba(191, 191, 191, 0.807);
+    color:  rgb(0, 0, 0);
 }
 
 .border-bottom-color-gray{
+    margin: 0em 8em;
     border-bottom: 2px solid;
-    color:  rgba(191, 191, 191, 0.807);
+    color:  rgba(0, 0, 0, 0.807);
 }
 
+.language{
+    border-top: 2px solid;
+    color:  rgba(191, 191, 191, 0.807); 
+}
 .border-bottom{
     margin-right: 22em;
     border-bottom: 2px solid;
     color:  rgba(191, 191, 191, 0.807);
+}
+
+
+
+/* prova bonus */
+.margin-0-8em{
+    margin: 0em 8em;
+}
+
+.panel{
+    display: none;
+}
+
+.active .panel:hover{
+    display: contents;
 }
