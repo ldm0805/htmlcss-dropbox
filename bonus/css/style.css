@@ -68,6 +68,15 @@
     border: 1px solid rgba(191, 191, 191, 0.807);
 }
 
+.border-top-black{
+    border: 1px solid black;
+    padding: 1em;
+    border-radius: 1em;
+}
+
+.border-radius-1em{
+    border-radius: 1em;
+}
 /* Margin e Padding */
 
 .margin-top-2em{
@@ -497,12 +506,6 @@ input {
 }
 
 
-/* Bonus */
-
-
-
-
-
 
  /* Footer */
 
@@ -558,6 +561,7 @@ footer li{
     border-top: 2px solid;
     color:  rgba(191, 191, 191, 0.807); 
 }
+
 .border-bottom{
     margin-right: 22em;
     border-bottom: 2px solid;
@@ -600,9 +604,10 @@ footer li{
     opacity: 0;
     transform: translateY(-10px);
     transition: opacity 0.3s ease-in-out, transform 0.3s ease-in-out;
+    z-index: 4;
 }
 
-.dropdown > .link:focus + .dropdown-menu{
+.dropdown > .link:hover + .dropdown-menu{
     opacity: 1;
     transform: translateY(0);
 }   
@@ -610,11 +615,45 @@ footer li{
 /* Nel jumbo che si muove */
 
 .fa-arrow-down {
-    animation: spin 2s linear infinite;
+    animation: spin 1.5s linear infinite;
 }
 
 @keyframes spin {
-    0% { transform: translate(0px,-20px);}
+    0% { transform: translate(0px,-30px);}
     50% { transform: translate(0px,4px);}
-    100% { transform: translate(0px,-20px);}
+    100% { transform: translate(0px,-30px);}
+}
+
+/* bonus faq */
+
+.none {
+    display: none;
+}
+
+div label {
+    border-top: 2px solid #A7A7A7;
+    display: block;    
+    padding: 1em;
+    margin: 0 0 1px 0;
+    cursor: pointer;
+    color: black;
+    transition: display 3s;
+}
+
+div label:hover {
+    background: rgba(147, 149, 161, 0.924);
+}
+
+.content {
+    padding: 2em;
+    max-width: 55em;
+}
+
+.none + label + .content {
+    display: none;
+}
+
+.none:hover + label + .content {
+    display: block;
+    
 }
