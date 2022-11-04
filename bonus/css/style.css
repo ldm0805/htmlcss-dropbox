@@ -168,6 +168,10 @@
     font-size: 0.9em;
 }
 
+.font-size-4em{
+    font-size: 4em;
+} 
+
 .font-size-title{
     font-size: 1.5em;
 }
@@ -233,7 +237,7 @@
     position: absolute;
     left: 0;
     top:0;
-    width: 46em;
+    width: 50em;
 }
 
 /* Sezione offerte*/
@@ -578,6 +582,7 @@ footer li{
 
 /* Bonus */
 
+/* dropdown menu */
 .dropdown{
     position: relative;
 }
@@ -589,7 +594,6 @@ footer li{
     margin-right: auto;
     left: 0;
     right: 0;
-
     background-color: white;
     padding: 0.75em;
     box-shadow: 0px 2px 5px 0px rgba(0, 0, 0, 0.3);
@@ -603,6 +607,14 @@ footer li{
     transform: translateY(0);
 }   
 
+/* Nel jumbo che si muove */
 
+.fa-arrow-down {
+    animation: spin 2s linear infinite;
+}
 
-  
+@keyframes spin {
+    0% { transform: translate(0px,-20px);}
+    50% { transform: translate(0px,4px);}
+    100% { transform: translate(0px,-20px);}
+}
