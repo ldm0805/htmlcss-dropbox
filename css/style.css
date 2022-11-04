@@ -13,6 +13,10 @@
     color: white;
 }
 
+.color-darkred{
+    color: darkred;
+}
+
 /* flex */
 
 .flex{
@@ -97,6 +101,10 @@
     margin-right: 0.5em;
 }
 
+.margin-left-20em{
+    margin-left: 20em;
+}
+
 .padding-bottom{
     padding-bottom: 2em;
 }
@@ -117,8 +125,7 @@
     padding-left: 22em;
 }
 
-.padding-top-4em{
-    padding-right: 31em;
+.padding-top-2em{
     padding-top: 2em;
 }
 
@@ -130,8 +137,8 @@
     padding-top: 1em;
 }
 
-.padding-vertical-15em{
-    padding: 1.5em 0em;
+.padding-vertical-2em{
+    padding: 2em 0em;
 }
 /* Icone */
 
@@ -176,7 +183,7 @@
 
 /* Main */
 
-/* Jumbo */
+/*Prima sezione Jumbo*/
 
 .section-jumbo{
    
@@ -188,6 +195,10 @@
 .title-col{
     width: 60em;
     margin: 0 auto;
+}
+
+.font-weight-900{
+    font-weight: 900;
 }
 
 .big-title{
@@ -217,7 +228,7 @@
     width: 46em;
 }
 
-/* Sezione business e offerte*/
+/* Sezione offerte*/
 
 .business-col{
     width: 55em;
@@ -259,16 +270,30 @@
 
 }
 
-.icon:before{
-    content: "<i class="fa-solid fa-check"></i>" ;
-}
-
 .padding-top-1em div,h4{
     padding-top: 1.2em;
     font-size: 0.9em;
 }
 
-/* Sezione team */
+/* Radio button */
+
+input {
+    appearance: none;
+    border-radius: 50%;
+    width: 1.3em;
+    height: 1.3em;
+    border: 2px solid #999;
+    transition: 0.2s ease;
+    margin-right: 5px;
+    position: relative;
+    top: 4px;
+  }
+  
+  input:checked {
+    border: 0.40em solid rgb(11, 28, 255);
+  }
+
+/* Sezione piani tariffari */
 
 .private-col{
     border: 1px solid rgba(191, 191, 191, 0.807);
@@ -292,7 +317,7 @@
     padding-top: 1em;
 }
 
-/* Sezione partner */
+/* Sezione partner dropbox */
 
 
 .partner-row{
@@ -312,7 +337,7 @@
    width: 100%;
 }
 
-/* Sezione operazioni dropbox business */
+
 
 .operation-container{
     justify-content: center;
@@ -508,15 +533,13 @@ footer li{
 }
 
 .border-top-color-gray{
-    margin: 0em 8em;
     border-top: 2px solid;
-    color:  rgb(0, 0, 0);
+    color:  rgb(144, 144, 144);
 }
 
 .border-bottom-color-gray{
-    margin: 0em 8em;
     border-bottom: 2px solid;
-    color:  rgba(0, 0, 0, 0.807);
+    color:  rgba(142, 142, 142, 0.807);
 }
 
 .language{
@@ -543,3 +566,5 @@ footer li{
 .active .panel:hover{
     display: contents;
 }
+
+
