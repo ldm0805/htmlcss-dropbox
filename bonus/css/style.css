@@ -189,11 +189,16 @@
 .font-size-title{
     font-size: 1.5em;
 }
-/* Header */
 
+/* Header */
 .row-header{
     height: 4em;
     width: 100%;
+    position: fixed;
+    background-color: white;
+    top: 0;
+    border-bottom: 1px solid rgba(191, 191, 191, 0.807);
+    z-index: 999;
 }
 
 .row-header{
@@ -220,7 +225,7 @@
 
 .title-col{
     width: 60em;
-    margin: 0 auto;
+    margin: 4em auto;
 }
 
 .font-weight-900{
@@ -667,3 +672,5 @@ div label:hover {
     display: block;
     
 }
+
+
