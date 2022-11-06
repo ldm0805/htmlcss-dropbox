@@ -602,11 +602,12 @@ footer li{
 /* dropdown menu */
 .dropdown{
     position: relative;
+    
 }
 
-.dropdown-menu{ 
-    min-width: 9em;
+.dropdown-menu{  
     position: absolute;
+    width: 10em;
     margin-left: auto;
     margin-right: auto;
     left: 0;
@@ -614,20 +615,16 @@ footer li{
     background-color: white;
     padding: 0.75em;
     box-shadow: 0px 2px 5px 0px rgba(0, 0, 0, 0.3);
-    display: none;
-    transform: translateY(-10px);
+    transform: scale(0);
     transition: opacity 0.3s ease-in-out, transform 0.3s ease-in-out;
-    z-index: 4;
 }
 
 .dropdown a:hover{
-    background-color: rgba(165, 211, 238, 0.504);
+    background-color: rgba(163, 200, 231, 0.323);
 }
 
 .dropdown > .link:focus + .dropdown-menu{
-
-    transform: translateY(0);
-    display: flex;
+    transform: scale(1);
 }   
 
 /* Nel jumbo che si muove */
@@ -670,7 +667,7 @@ div label:hover {
 }
 
 .none:hover + label + .content {
-    display: flex;
+    display: block;
     
 }
 
