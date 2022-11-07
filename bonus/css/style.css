@@ -183,6 +183,10 @@
     font-size: 4em;
 } 
 
+.font-size-3em{
+    font-size: 3em;
+}
+
 .font-size-title{
     font-size: 1.5em;
 }
@@ -226,7 +230,7 @@
 
 .title-col{
     width: 60em;
-    margin: 4em auto;
+    margin: 0em auto;
 }
 
 .font-weight-900{
@@ -235,7 +239,6 @@
 
 .big-title{
     padding-top: 1em;
-    margin-top: 0.2em;
     font-weight: bolder;
     font-size: 3em;
 }
@@ -745,15 +748,16 @@ div label:hover {
 .padding-left-text{
     padding: 5em 19em 5em 2em;
 }
+
 .row-scthree{
-    width:100vw;
-    height:40em;
+    width: 100%;
+    height: 40em;
     background-color: #1E1919;
     align-items: center;
 }
 
 .col-scthee-45{
-    width:45%;
+    width: 45%;
 }
 
 .col-scthee-55{
@@ -767,4 +771,17 @@ div label:hover {
     height: 100%;
     object-fit:contain;
     background-color: rgb(43, 41, 41);
+}
+
+.img-four{
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+
+/* Bonus seconda pagina quarta sezione */
+
+.sctfour-row{
+    gap: 15em;
+    padding: 7em 3em 7em 3em;
 }
