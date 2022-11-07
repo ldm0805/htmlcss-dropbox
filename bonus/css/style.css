@@ -705,7 +705,7 @@ div label:hover {
     width: 65vw;
 }
 
-.img-1{
+.img-fit-cover{
     width: 100%;
     height: 100%;
     object-fit:cover;
@@ -734,4 +734,37 @@ div label:hover {
 .col-sctwo-33{
     width: calc(90% / 3);
     padding-top: 4em;
+}
+
+/* Bonus seconda pagina terza sezione */
+
+.padding-right-text{
+    padding: 5em 2em 5em 19em;
+}
+
+.padding-left-text{
+    padding: 5em 19em 5em 2em;
+}
+.row-scthree{
+    width:100vw;
+    height:40em;
+    background-color: #1E1919;
+    align-items: center;
+}
+
+.col-scthee-45{
+    width:45%;
+}
+
+.col-scthee-55{
+    width: 55%;
+    height: 80%;
+}
+
+.img-fit-container{
+    padding: 3em 0em 3em 0em;
+    width: 100%;
+    height: 100%;
+    object-fit:contain;
+    background-color: rgb(43, 41, 41);
 }
