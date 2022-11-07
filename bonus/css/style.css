@@ -194,11 +194,11 @@
 .row-header{
     height: 4em;
     width: 100%;
-    position: fixed;
+   /* position: fixed;*/
     background-color: white;
     top: 0;
     border-bottom: 1px solid rgba(191, 191, 191, 0.807);
-    z-index: 999;
+    /*z-index: 999;*/
 }
 
 .row-header{
@@ -672,3 +672,34 @@ div label:hover {
 }
 
 
+/* Bonus seconda pagina */
+.pgtwo-row{
+    width: 100%;
+}
+
+.pgtwo-col-left{
+    border:2px solid red;
+    width: 30vw;
+    padding: 2em 2em 10em 2em;
+    justify-content: space-around;
+}
+
+.padding-button-pgtwo{
+    padding: 2em 1.5em 2em 1.5em;
+}
+
+.padding-left-arrowright{
+    padding-left: 3.5em;
+}
+
+.pgtwo-col-right{
+    border:2px solid blue;
+    width: 70vw;
+    
+}
+
+.img-1{
+    width: 100%;
+    height: 100%;
+    object-fit:cover;
+}
