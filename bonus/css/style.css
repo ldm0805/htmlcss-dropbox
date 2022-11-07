@@ -190,6 +190,10 @@
     font-size: 1.5em;
 }
 
+.font-size-25em{
+    font-size: 2.5em;
+}
+
 /* Header */
 .row-header{
     height: 4em;
@@ -672,16 +676,16 @@ div label:hover {
 }
 
 
-/* Bonus seconda pagina */
+/* Bonus seconda pagina prima sezione */
 .pgtwo-row{
     width: 100%;
 }
 
 .pgtwo-col-left{
-    border:2px solid red;
-    width: 30vw;
-    padding: 2em 2em 10em 2em;
-    justify-content: space-around;
+    background-color: #1E1919;
+    width: 35vw;
+    padding: 2em 2em 10em 3em;
+    gap: 2.5em;
 }
 
 .padding-button-pgtwo{
@@ -689,17 +693,28 @@ div label:hover {
 }
 
 .padding-left-arrowright{
-    padding-left: 3.5em;
+    padding-left: 2.5em;
+}
+
+.underline-grey{
+    text-decoration: underline grey;
+}
+
+.color-text-black{
+    color: black;
 }
 
 .pgtwo-col-right{
-    border:2px solid blue;
-    width: 70vw;
-    
+    width: 65vw;
 }
 
 .img-1{
     width: 100%;
     height: 100%;
     object-fit:cover;
+}
+
+/* Bonus seconda pagina seconda sezione */
+.col-sctwo{
+    padding: 0em 20em 0em 20em;
 }
