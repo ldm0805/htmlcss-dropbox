@@ -146,9 +146,6 @@
     padding-top: 2em;
 }
 
-.padding-top-2em{
-    padding-top: 2em;
-}
 
 .padding-top-1em{
     padding-top: 1em;
@@ -715,6 +712,26 @@ div label:hover {
 }
 
 /* Bonus seconda pagina seconda sezione */
-.col-sctwo{
+
+.pg2-container-sctwo{
+    padding:3em 0em 3em 0em;
+    background-color: rgb(247, 245, 242);
+}
+
+.row-sctwo{
+    padding:0em 20em;
+}
+
+.row-scttwo{
+    justify-content: center;
+    gap: 2em;
+    margin: 3em 4em 3em 4em;
+}
+.col-sctwo-title{
     padding: 0em 20em 0em 20em;
+}
+
+.col-sctwo-33{
+    width: calc(90% / 3);
+    padding-top: 4em;
 }
